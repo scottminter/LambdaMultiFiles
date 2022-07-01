@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace LambdaMultiFiles
 {
-    public class ReqInput
+    internal class InputModel
     {
-        public object? Body { get; set; }
+        public int num1 { get; set; }
+        public int num2 { get; set; }
     }
 }
